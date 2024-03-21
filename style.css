@@ -1,3 +1,42 @@
 body {
-    background: black;
+  background: #211951;
+  overflow-x: hidden;
+}
+
+.headerdiv {
+  background: #836fff;
+  border: 2px solid #15f5ba;
+  border-radius: 10px;
+  box-shadow: -10px 5px 3px 0px #000000;
+}
+
+.headertext {
+  color: #f0f3ff;
+}
+
+.nameInput {
+  background: #f0f3ff;
+  border: 2px solid #15f5ba;
+  border-radius: 10px;
+  height: 250px;
+  width: 250px;
+  box-shadow: -10px 5px 3px 0px #000000;
+}
+
+.selectedName {
+  background: #f0f3ff;
+  border: 2px solid #15f5ba;
+  border-radius: 10px;
+  height: 100px;
+  width: 350px;
+  box-shadow: -10px 5px 3px 0px #000000;
+}
+
+.nameDisplay {
+  background: #f0f3ff;
+  border: 2px solid #15f5ba;
+  border-radius: 10px;
+  height: 250px;
+  width: 250px;
+  box-shadow: -10px 5px 3px 0px #000000;
 }
