@@ -12,6 +12,7 @@ body {
 
 .headertext {
   color: #f0f3ff;
+  font-family: "Press Start 2P", system-ui;
 }
 
 .nameInput {
@@ -58,4 +59,8 @@ body {
 
 .bg-custom {
   background: #836fff;
+}
+
+.buttonstyling {
+
 }
