@@ -18,8 +18,8 @@ body {
   background: #f0f3ff;
   border: 2px solid #15f5ba;
   border-radius: 10px;
-  height: 250px;
-  width: 250px;
+  height: 25vw;
+  width: 15vw;
   box-shadow: -10px 5px 3px 0px #000000;
 }
 
@@ -27,8 +27,8 @@ body {
   background: #f0f3ff;
   border: 2px solid #15f5ba;
   border-radius: 10px;
-  height: 100px;
-  width: 350px;
+  height: 5vw;
+  width: 50vw;
   box-shadow: -10px 5px 3px 0px #000000;
 }
 
@@ -36,7 +36,13 @@ body {
   background: #f0f3ff;
   border: 2px solid #15f5ba;
   border-radius: 10px;
-  height: 250px;
-  width: 250px;
+  height: 25vw;
+  width: 15vw;
   box-shadow: -10px 5px 3px 0px #000000;
+}
+
+.threenamedivs {
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
 }

@@ -20,7 +20,7 @@
     />
   </head>
   <body>
-    <hr>
+    <hr />
     <div class="row">
       <div class="col-2"></div>
       <div class="col-8 headerdiv text-center">
@@ -28,11 +28,14 @@
       </div>
       <div class="col-2"></div>
     </div>
-    <hr>
-    <div class="row d-flex justify-content-around align-content-center">
-        <div class="col-3 nameInput"></div>
-        <div class="col-6 selectedName"></div>
-        <div class="col-3 nameDisplay"></div>
+    <hr />
+    <div class="row threenamedivs">
+      <div class="col-3 nameInput" id="nameInputDiv"></div>
+      <div class="col-6">
+        <h1 class="headertext text-center">Selected Name:</h1>
+        <div class="col-12 selectedName" id="nameSelectedDiv"></div>
+      </div>
+      <div class="col-3 nameDisplay" id="nameDisplayDiv"></div>
     </div>
 
     <!-- Scripts -->
@@ -45,6 +48,5 @@
     <!-- Scripts -->
 
     <!-- Color Palette https://colorhunt.co/palette/211951836fff15f5baf0f3ff -->
-
   </body>
 </html>
