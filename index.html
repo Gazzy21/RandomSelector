@@ -21,6 +21,7 @@
   </head>
   <body>
     <hr />
+    <!-- main header START -->
     <div class="row">
       <div class="col-2"></div>
       <div class="col-8 headerdiv text-center">
@@ -28,15 +29,65 @@
       </div>
       <div class="col-2"></div>
     </div>
+    <!-- main header END -->
     <hr />
-    <div class="row threenamedivs">
-      <div class="col-3 nameInput" id="nameInputDiv"></div>
-      <div class="col-6">
-        <h1 class="headertext text-center">Selected Name:</h1>
-        <div class="col-12 selectedName" id="nameSelectedDiv"></div>
+
+    <!-- main divs START -->
+    <div class="container-fluid">
+      <div class="row threenamedivs">
+        <div class="col-3 d-flex justify-content-center">
+          <div class="text-center">
+            <div class="nameInput" id="nameInputDiv"></div>
+            <hr>
+            <button>Press To Input Names</button>
+          </div>
+        </div>
+        <div class="col-6 d-flex justify-content-center">
+          <div class="text-center">
+            <div class="selectedName" id="nameSelectedDiv"></div>
+          </div>
+        </div>
+        <div class="col-3 d-flex justify-content-center">
+          <div class="text-center">
+            <div class="nameDisplay" id="nameDisplayDiv"></div>
+            <hr>
+            <button>Press To Display Names</button>
+          </div>
+        </div>
       </div>
-      <div class="col-3 nameDisplay" id="nameDisplayDiv"></div>
     </div>
+    
+    <!-- main divs END -->
+
+    <!-- Footer START -->
+    <footer class="bg-custom text-center text-white footerstyling">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Github -->
+          <a
+            class="btn text-white btn-floating m-1"
+            style="background-color: #333333"
+            href="https://github.com/Gazzy21"
+            role="button"
+            ><i class="fab fa-github"></i
+          ></a>
+        </section>
+        <!-- Section: Social media -->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        Nicholas Guzzone © 2023 Copyright:
+        <a class="text-white" href="https://mdbootstrap.com/"
+          >MDBootstrap.com</a
+        >
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer END -->
 
     <!-- Scripts -->
     <script src="script.js"></script>
