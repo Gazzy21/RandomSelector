@@ -1,13 +1,15 @@
 body {
-  background: #211951;
+  background: #1D2B53;
   overflow-x: hidden;
 }
 
 .headerdiv {
-  background: #836fff;
-  border: 2px solid #15f5ba;
+  background: #7E2553;
+  border: 2px solid #FF004D;
   border-radius: 10px;
   box-shadow: -10px 5px 3px 0px #000000;
+  -webkit-text-stroke-width: px;
+  -webkit-text-stroke-color: black;
 }
 
 .headertext {
@@ -17,7 +19,7 @@ body {
 
 .nameInput {
   background: #f0f3ff;
-  border: 2px solid #15f5ba;
+  border: 2px solid #FF004D;
   border-radius: 10px;
   height: 25vw;
   width: 15vw;
@@ -26,7 +28,7 @@ body {
 
 .selectedName {
   background: #f0f3ff;
-  border: 2px solid #15f5ba;
+  border: 2px solid #FF004D;
   border-radius: 10px;
   height: 5vw;
   width: 50vw;
@@ -35,11 +37,11 @@ body {
 
 .nameDisplay {
   background: #f0f3ff;
-  border: 2px solid #15f5ba;
+  border: 2px solid #FF004D;
   border-radius: 10px;
   height: 25vw;
   width: 15vw;
-  box-shadow: -10px 5px 3px 0px #000000;
+  box-shadow: -10px 5px 3px 0px #000000
 }
 
 .threenamedivs {
@@ -52,15 +54,46 @@ body {
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.2); /* Add a background color */
-  padding: 10px; /* Add some padding for better spacing */
-  border-top: 2px solid #15f5ba;
+  
+  border-top: 2px solid #FF004D;
 }
 
 .bg-custom {
-  background: #836fff;
+  background: #7E2553;
 }
 
-.buttonstyling {
+.btn-4 {
+  border: 1px solid;
+  overflow: hidden;
+  position: relative;
+  color: white;
+  
+  span {
+    z-index: 20;
+    color: white;
+  }
+  
+  &:after {
+    background: #fff;
+    content: "";
+    height: 155px;
+    left: -75px;
+    opacity: 0.2;
+    position: absolute;
+    top: -50px;
+    transform: rotate(35deg);
+    transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+    width: 50px;
+    z-index: -10;
+    color: white;
+  }
+}
 
+.btn-4:hover {
+  
+  &:after {
+    left: 120%;
+    transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+    color: white;
+  }
 }
