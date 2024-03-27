@@ -63,7 +63,7 @@ body {
 }
 
 .btn-4 {
-  border: 1px solid;
+  border: 1px solid white;
   overflow: hidden;
   position: relative;
   color: white;
@@ -90,7 +90,7 @@ body {
 }
 
 .btn-4:hover {
-  
+  border: 1px solid white;
   &:after {
     left: 120%;
     transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
